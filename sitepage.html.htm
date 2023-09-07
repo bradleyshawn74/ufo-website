@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFO Enthusiasts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-family:courier;font-size:80px; color:Blue;">Welcome to UFO Enthusiasts</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html.htm">Home</a></li>
+                
+                <li><a href="http://127.0.0.1:5500/images.html.htm">Gallery</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2  style= "color:chartreuse; font-size:30px">Exploring the Unknown</h2>
+
+        <p  style= "color:chartreuse; font-size:30px">Join us in uncovering the mysteries of UFO sightings and encounters from around the world.</p>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p  style= "color:chartreuse; font-size:30px">We are a community of UFO enthusiasts dedicated to sharing knowledge, stories, and evidence related to unidentified flying objects.</p>
+    </section>
+ <style>
+body {
+  background-image: url('https://i.ytimg.com/vi/rl3_8ouqH8Y/maxresdefault.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: center;
+}
+</style> 
+
+
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="image-grid">
+            <img src="file:///C:/Users/bradl/Downloads/UFO5.webp" alt="UFO Photo 1"  width = "500" height = "500">
+            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/08/10/12/alien.jpg" alt="UFO Photo 2" width = "500" height = "500">
+            <img src="https://i.ytimg.com/vi/CM7pIHRzHnI/maxresdefault.jpg" alt="UFO Photo 3"  width = "500" height = "500">
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p style= "color:chartreuse; font-size:30px">If you have any questions or want to share your own UFO experience, feel free to get in touch with us.</p>
+        <a href="mailto:bradleyshawn74@gmail.com">bradleyshawn74@gmail.com</a>
+    </section>
+<pre style="font-size:40px;color:rebeccapurple;">	Witnesses testified that the government
+	 had been aware of non-human activity 
+	since the 1930s during a session of
+	 the House Oversight Committee in late July.
+
+	The alien probe was launched after David Grusch,
+	 a United States Air Force veteran 
+	who previously worked at the National Reconnaissance Office,
+	 told NewsNation, following an article on the same subject
+	 in The Debrief, that the government had retrieved several
+	 "non-human origin technical vehicles," some of which
+	 contained "dead pilots." </pre>
+
+<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Comment Section</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <h1 style= "color:blue; font-size:30px"> Comment Section</h1>
+
+    <div id="comments" style= "color:yellow; font-size:30px">
+        
+    </div>
+
+    <form id="comment-form">
+        <label for="name"  style= "color:blue; font-size:30px">Name:</label>
+        <input type="text" id="name" required  style= "color:blue; font-size:30px"><br>
+
+        <label for="comment"  style= "color:green; font-size:30px">Comment:</label>
+        <textarea id="comment" rows="4" required  style= "color:green; font-size:30px"></textarea><br>
+
+        <button type="submit"  style= "color:red; font-size:30px">Abduction</button>
+    </form>
+
+    <script>
+        document.getElementById("comment-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const comment = document.getElementById("comment").value;
+
+            const commentDiv = document.createElement("div");
+            commentDiv.innerHTML = `<strong>${name}</strong>: ${comment}`;
+            
+            document.getElementById("comments").appendChild(commentDiv);
+
+            document.getElementById("name").value = "";
+            document.getElementById("comment").value = "";
+        });
+    </script>
+</body>
+</html>
+
+
+    <footer>
+        <p style= "color:yellow; font-size:30px">&copy; 2023 Shawn Bradley IND . All rights reserved.</p>
+    </footer>
+</body>
+</html>
